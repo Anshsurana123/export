@@ -46,3 +46,19 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Grayscale/hidden styling for Google Translate widget to preserve B2B premium design */
+.skiptranslate, iframe.skiptranslate, #google_translate_element {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  box-sizing: border-box;
+}
+
